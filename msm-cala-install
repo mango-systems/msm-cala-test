@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p /etc/calamares/branding /etc/calamares/modules
+
+cp  modules/* /etc/calamares/modules/
+cp -r branding/msm /etc/calamares/branding/
+cp settings.conf /etc/calamares/
